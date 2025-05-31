@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e2e2e;
+    text-align: center;
+    padding: 30px 10px;
+    color: #00ff99; /* Verde claro */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #00ccff; /* Azul */
+    margin-top: 10px;
+}
+
+h3 {
+    color: #00ccff;
+    border-bottom: 2px solid #00ff99;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+div {
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box {
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #00ff99;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contacto label {
+    margin-top: 10px;
+    color: #00ccff;
+}
+
+.contacto input, 
+.contacto textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #00ff99;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00cc88;
+}
+
+footer {
+    text-align: center;
+    background-color: #2e2e2e;
+    color: #999;
+    padding: 20px;
+    margin-top: 30px;
+}
